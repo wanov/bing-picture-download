@@ -1,0 +1,5 @@
+let s=$(".img_cont").style.backgroundImage;
+let e=document.createElement("a");
+e.href="https://cn.bing.com"+s.substring(5,s.length-2);
+e.download="bing.jpg";
+e.click();
